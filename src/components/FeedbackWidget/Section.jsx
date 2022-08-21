@@ -13,4 +13,5 @@ export const Section = ({ title, children }) => {
 
 Section.propType = {
   title: PropTypes.string,
+  children: PropTypes.object,
 };
