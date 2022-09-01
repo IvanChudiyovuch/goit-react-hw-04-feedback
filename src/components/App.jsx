@@ -60,7 +60,7 @@ export const App = () => {
       </Section>
 
       <Section title="Statistics">
-        {console.log(countTotalFeedback()) ? (
+        {countTotalFeedback() ? (
           <Statistics
             good={state.good}
             neutral={state.neutral}
